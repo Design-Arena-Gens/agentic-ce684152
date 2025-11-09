@@ -1,0 +1,15 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+:root { color-scheme: dark; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji; }
+
+a { color: #a5b4fc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button { background: #18181b; color: #fff; border: 1px solid #27272a; padding: 0.5rem 0.75rem; border-radius: 0.375rem; cursor: pointer; }
+button:hover { background: #27272a; }
+
+input, select { background: #0b0b0c; color: #e4e4e7; border: 1px solid #27272a; border-radius: 0.375rem; padding: 0.5rem; }
+label { color: #d4d4d8; }
+
+.card { border: 1px solid #27272a; border-radius: 0.5rem; padding: 1rem; background: #0b0b0c; }
